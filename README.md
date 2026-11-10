@@ -279,7 +279,7 @@ Instead of spending hours watching lengthy videos, users can quickly understand 
 Computer Science Engineering | AI & ML Enthusiast | Software Developer
 
 - GitHub: [@himanshuwalde](https://github.com/himanshuwalde)
-- LinkedIn: [Himanshu Walde](https://www.linkedin.com/in/himanshu-walde-20b716290/)
+- LinkedIn: [Himanshu Walde](https://www.linkedin.com/in/himanshuwalde/)
 
 ---
 
