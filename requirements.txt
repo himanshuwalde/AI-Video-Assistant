@@ -48,3 +48,6 @@ tqdm>=4.66.0                      # Progress bars
 requests>=2.32.0
 pydub
 audioop-lts
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+python-multipart>=0.0.9

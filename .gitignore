@@ -2,21 +2,17 @@
 
 # ── Environment & Secrets ──────────────────────────────────────────────────────
 .env
-.env.*
-!.env.example
-!.env.sample
+
+# ── Python virtual environments ────────────────────────────────────────────────
+.venv/
+venv/
+env/
 
 # ── Python bytecode & cache ────────────────────────────────────────────────────
 __pycache__/
 *.py[cod]
 *$py.class
 .pycache
-
-# ── Virtual environments ───────────────────────────────────────────────────────
-.venv/
-venv/
-env/
-.env
 
 # ── Distribution / packaging ───────────────────────────────────────────────────
 build/
@@ -40,6 +36,12 @@ coverage.xml
 htmlcov/
 .tox/
 .nox/
+
+# ── Frontend ────────────────────────────────────────────────────────────────────
+frontend/node_modules/
+frontend/.vite/
+frontend/.vite-temp/
+frontend/package-lock.json
 
 # ── Project-specific data (large / generated) ──────────────────────────────────
 downloads/
@@ -74,4 +76,6 @@ Thumbs.db
 *.tmp
 *.temp
 .cache/
-downloads/*.wav
+
+# ── Claude Code local settings ─────────────────────────────────────────────────
+.claude/settings.local.json
