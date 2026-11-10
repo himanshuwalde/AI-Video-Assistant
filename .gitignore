@@ -1,0 +1,77 @@
+# ── AI Video Assistant — .gitignore ────────────────────────────────────────────
+
+# ── Environment & Secrets ──────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# ── Python bytecode & cache ────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+.pycache
+
+# ── Virtual environments ───────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+.env
+
+# ── Distribution / packaging ───────────────────────────────────────────────────
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# ── Type checking & linting caches ─────────────────────────────────────────────
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+.flake8_cache/
+
+# ── Testing & coverage ─────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+coverage.xml
+*.cover
+htmlcov/
+.tox/
+.nox/
+
+# ── Project-specific data (large / generated) ──────────────────────────────────
+downloads/
+vector_db/
+*.wav
+*.mp3
+*.mp4
+*.mkv
+*.webm
+
+# ── Logs ───────────────────────────────────────────────────────────────────────
+*.log
+logs/
+
+# ── IDE & editor ───────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ── Streamlit (if used) ────────────────────────────────────────────────────────
+.streamlit/secrets.toml
+
+# ── Jupyter / Notebooks ────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── OS / misc ──────────────────────────────────────────────────────────────────
+*.tmp
+*.temp
+.cache/
+downloads/*.wav
